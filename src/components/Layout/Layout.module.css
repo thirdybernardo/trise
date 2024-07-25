@@ -25,7 +25,41 @@
 .column:nth-child(2) > .additionalContainer {
   margin-top: 20px; /* Added margin-top to separate from the second column */
 }
+@media (min-width: 1366px) {
+  .container {
+    grid-template-columns: 17% 675px 15%;
+  }
 
+  .menuList {
+    margin-left: 40px;
+  }
+
+  .imagesContainer {
+    margin-left: 60px;
+  }
+
+  .userList {
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 1152px) {
+  .container {
+    grid-template-columns: 17% 675px 15%;
+  }
+
+  .menuList {
+    margin-left: 40px;
+  }
+
+  .imagesContainer {
+    margin-left: 60px;
+  }
+
+  .userList {
+    margin-right: 60px;
+  }
+}
 @media (min-width: 1600px) {
   .container {
     grid-template-columns: 10% 60% 30%;
@@ -46,7 +80,6 @@
 
 @media (max-width: 1728px) {
   .container {
-    width: 100%; /* Ensure it fits within the viewport */
     grid-template-columns: 17% 675px 15%;
   }
 }
