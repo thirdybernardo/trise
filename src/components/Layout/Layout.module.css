@@ -25,11 +25,11 @@
 .column:nth-child(2) > .additionalContainer {
   margin-top: 20px; /* Added margin-top to separate from the second column */
 }
+
 @media (min-width: 1024px) {
   .container {
     grid-template-columns: 2% 675px 15%;
   }
-
   .menuList {
     margin-left: 40px;
   }
