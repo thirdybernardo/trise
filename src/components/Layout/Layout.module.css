@@ -27,7 +27,7 @@
 }
 @media (min-width: 1024px) {
   .container {
-    grid-template-columns: 17% 675px 15%;
+    grid-template-columns: 17% 675px 15% !important;
   }
 
   .menuList {
@@ -98,16 +98,5 @@
 @media (max-width: 1728px) {
   .container {
     grid-template-columns: 17% 675px 15%;
-  }
-}
-
-@media (max-width: 1048px) {
-  .container {
-    height: auto;
-    grid-template-columns: 100%;
-  }
-
-  .column {
-    padding: 10px 0;
   }
 }
