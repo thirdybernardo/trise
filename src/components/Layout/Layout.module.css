@@ -25,6 +25,23 @@
 .column:nth-child(2) > .additionalContainer {
   margin-top: 20px; /* Added margin-top to separate from the second column */
 }
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: 17% 675px 15%;
+  }
+
+  .menuList {
+    margin-left: 40px;
+  }
+
+  .imagesContainer {
+    margin-left: 60px;
+  }
+
+  .userList {
+    margin-right: 60px;
+  }
+}
 @media (min-width: 1366px) {
   .container {
     grid-template-columns: 17% 675px 15%;
@@ -45,7 +62,7 @@
 
 @media (min-width: 1152px) {
   .container {
-    grid-template-columns: 17% 675px 15%;
+    grid-template-columns: 12% 675px 15%;
   }
 
   .menuList {
