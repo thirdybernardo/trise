@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 15% 50% 35%;
+  height: 100vh;
+
+  gap: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #f5f5f5; /* Added background color */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.column:first-child {
+  padding-left: 7px;
+}
+
+.column:nth-child(2) {
+  margin-left: 90px; /* Added margin left for the second column */
+  width: 640px;
+}
+
+.column:nth-child(2) > .additionalContainer {
+  margin-top: 20px; /* Added margin-top to separate from the second column */
+}
+
+@media (min-width: 1600px) {
+  .container {
+    grid-template-columns: 10% 60% 30%;
+  }
+
+  .menuList {
+    margin-left: 40px;
+  }
+
+  .imagesContainer {
+    margin-left: 60px;
+  }
+
+  .userList {
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 1728px) {
+  .container {
+    width: 100%; /* Ensure it fits within the viewport */
+    grid-template-columns: 17% 675px 15%;
+  }
+}
+
+@media (max-width: 1048px) {
+  .container {
+    height: auto;
+    grid-template-columns: 100%;
+  }
+
+  .column {
+    padding: 10px 0;
+  }
+}

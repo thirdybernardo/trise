@@ -1,0 +1,22 @@
+.menuList {
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; /* Added font family */
+  font-weight: 500; /* Added font weight */
+  font-size: 12px; /* Added font size */
+  line-height: 36px; /* Added line height */
+}
+
+.menuList li {
+  color: #262626; /* Updated font color */
+  margin: 11px 0;
+  display: flex;
+  align-items: center; /* Center the text and icon vertically */
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px; /* Space between icon and text */
+}
