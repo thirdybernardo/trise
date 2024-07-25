@@ -21,6 +21,9 @@
   margin-left: 139px; /* Added margin left for the second column */
   width: 640px;
 }
+.column:nth-child(3) {
+  margin-left: 87px;
+}
 
 .column:nth-child(2) > .additionalContainer {
   margin-top: 20px; /* Added margin-top to separate from the second column */
