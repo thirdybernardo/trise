@@ -10,7 +10,7 @@ import asend from '../../assets/asend.png';
 import layoutbg from '../../assets/layoutbg.png';
 import abookmarks from '../../assets/abookmarks.png';
 const AdditionalContainer = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(true);
   const iconRight1Ref = useRef(null);
   const dropdownRef = useRef(null);
 

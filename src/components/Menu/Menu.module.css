@@ -5,6 +5,8 @@
   font-weight: 500; /* Added font weight */
   font-size: 12px; /* Added font size */
   line-height: 36px; /* Added line height */
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .menuList li {

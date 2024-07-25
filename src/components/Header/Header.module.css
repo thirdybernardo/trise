@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+.leftSection .logo {
+  width: 25px;
+  height: 22px;
+}
+.leftSection .icon {
+  width: 75px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.icon3 {
+  height: 31px;
+  width: 31px;
+  margin-right: -13px;
+  position: relative;
+  left: 10px;
+}
+
+.middleSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.rightSection .button {
+  margin-right: 22px;
+}
+.rightSection .icon {
+  margin-right: 9px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  width: 92px;
+  height: auto;
+}
+
+.button:hover {
+  background-color: #45a049;
+  border-radius: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px; /* Space between icons */
+}
+.searchBox {
+  width: 100%;
+  padding: 8px;
+  padding-right: 40px; /* Make space for the search icon */
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
+
+.searchBox {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #e6e6e6;
+  border-radius: 40px;
+}
+.verticalLine {
+  height: 20px;
+  width: 1px;
+  background-color: #e6e6e6;
+  margin-right: 10px;
+  position: relative;
+  left: -41px;
+  top: 6px;
+}
+
+.searchIconContainer {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.verticalLine {
+  height: 20px;
+  width: 1px;
+  background-color: #e6e6e6;
+  margin-right: 10px;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+  left: -44px;
+}
