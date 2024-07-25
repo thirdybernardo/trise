@@ -97,6 +97,6 @@
 
 @media (max-width: 1728px) {
   .container {
-    grid-template-columns: 17% 675px 15%;
+    grid-template-columns: 11% 675px 15%;
   }
 }
